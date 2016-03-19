@@ -1,0 +1,169 @@
+/*
+* @nom             : home_work.css
+* @description     : Feuille de style pour la page d'avancement pour le site des features
+* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
+*/
+
+
+/***************************************/
+/* Zone de présentation de l'avancement */
+/***************************************/
+section#work
+{
+    position: absolute;
+    top: 18%;
+    left: 0;
+    height: 77%;
+    width: 100%;
+    
+    background-color: rgb(240, 240, 240);
+}
+
+section#work div#bubbles
+{
+    display: table;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60%;
+    width: 100%;
+}
+
+section#work div#bubbles div.bubble
+{
+    display: table-cell;
+    vertical-align: middle;
+    
+    text-align: center;
+}
+
+section#work div#bubbles div.bubble div
+{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    display: table;
+    
+    height: 20vh;
+    width: 20vh;
+    margin-left: 8vh;  
+    
+    background: rgba(0, 78, 255, 0.31);
+    border: 1vh solid rgba(0, 0, 0, 0.31);
+    
+    text-align: center;
+  
+    border-radius: 20vh;
+    
+    cursor: pointer;
+}
+
+section#work div#bubbles div.bubble div.ok
+{
+    background: rgba(0, 255, 49, 0.31);
+    border: 1vh solid rgba(0, 160, 31, 0.31);
+}
+
+section#work div#bubbles div.bubble div.wait
+{
+    background: rgba(255, 206, 0, 0.31);
+    border: 1vh solid rgba(160, 92, 0, 0.31);
+}
+
+section#work div#bubbles div.bubble div.no
+{
+    background: rgba(255, 0, 0, 0.31);
+    border: 1vh solid rgba(160, 0, 0, 0.31);
+}
+
+section#work div#bubbles div.bubble div:hover
+{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    background-color: rgba(0, 128, 255, 0.31);
+    border: 1vh solid rgba(16, 43, 193, 0.53);
+}
+
+section#work div#bubbles div.bubble div p
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section#work div#description
+{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: 90%;
+    height: 30%;
+    
+    background-color: #e0dada;
+    
+    border-radius: 5px;
+    
+    overflow: auto;
+}
+
+section#work div#description div
+{
+    display: table;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+section#work div#description div p
+{
+    display: table-cell;
+    vertical-align: middle;
+    
+    text-align: center;
+    
+    padding: 10px;
+}
+
+
+@media only screen and (max-device-width: 720px) 
+{  
+    section#work div#bubbles div.bubble div
+    {
+        height: 15vw;
+        width: 15vw;
+        
+        margin-left: 2.5vw;
+        
+        border: .2vw solid rgba(0, 0, 0, 0.31);
+        
+        font-size: 24px;
+    }
+    
+    section#work div#bubbles div.bubble div.ok
+    {
+        border: .2vw solid rgba(0, 160, 31, 0.31);
+    }
+
+    section#work div#bubbles div.bubble div.wait
+    {
+        border: .2vw solid rgba(160, 92, 0, 0.31);
+    }
+
+    section#work div#bubbles div.bubble div.no
+    {
+        border: .2vw solid rgba(160, 0, 0, 0.31);
+    }
+    
+    section#work div#description
+    {
+        font-size: 25px;
+    }
+}

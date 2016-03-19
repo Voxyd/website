@@ -1,0 +1,52 @@
+/*
+* @nom             : home_help.css
+* @description     : Feuille de style pour la zone d'aide du site de features
+* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
+*/
+
+
+/***************/
+/* Zone d'aide */
+/***************/
+section#help
+{
+    position: absolute;
+    top: 18%;
+    left: 0;
+    height: 77%;
+    width: 100%;
+    
+    background-color: rgb(240, 240, 240);
+    
+    overflow: auto;
+}
+
+section#help p
+{
+    padding: 10px;
+}
+
+section#help p.question
+{
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+section#help p.answer
+{
+    padding-left: 20px;
+    
+    font-size: 14px;
+}
+
+section#help p.answer a
+{
+    color: #ea9700;
+    font-weight: bold;
+}
+
+section#help p.answer b
+{
+    color: #0076ff;
+    font-weight: bold;
+}
