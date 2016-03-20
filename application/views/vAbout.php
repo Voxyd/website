@@ -51,7 +51,7 @@
         <!------------------------------------------>
         <section id="about">
             <p class="title">Notre politique</p>
-            <p class="description"><b>L</b>a vie privée sur Internet est un droit. Pourquoi devrions-nous accepter ce que nous n'accepterions pas dans notre vie de tous les jours (hors-ligne) ? Depuis des années, les sociétés privées telles que Google, Facebook, etc... ainsi que les services gouvernementaux nous espionnent et collectent des informations à notre propos, tous les jours, sur le web. Cependant, nous avons les moyens de contrer cet espionnage de masse à l'aide de la cryptographie mais trop peu de projets nous permettent de nous protéger convenablement. Mais aujourd'hui, nous avons la chance d'avoir une alternative sûre pour nos mails : <span>ProtonMail</span>, qui permet le chiffrement de bout-en-bout de ces derniers.<br /><b>C</b>'est dans cette optique-là que nous avons lancé le développement de <span>Quanta Cloud</span> afin de vous proposer une alternative pour le stockage de vos documents en ligne de façon sécurisée. Notre politique nous oblige à chiffrer de bout-en-bout vos fichiers vous rendant les seuls vrais propriétaires de ceux-ci.</p>
+            <p class="description"><b>L</b>a vie privée sur Internet est un droit. Pourquoi devrions-nous accepter ce que nous n'accepterions pas dans notre vie de tous les jours (hors-ligne) ? Depuis des années, les sociétés privées telles que Google, Facebook, etc... ainsi que les services gouvernementaux nous espionnent et collectent des informations à notre propos, tous les jours, sur le web. Cependant, nous avons les moyens de contrer cet espionnage de masse à l'aide de la cryptographie mais trop peu de projets nous permettent de nous protéger convenablement. Mais aujourd'hui, nous avons la chance d'avoir une alternative sûre pour nos mails : <span>ProtonMail</span>, qui permet le chiffrement de bout-en-bout de ces derniers.<br /><b>C</b>'est dans cette optique là que nous avons lancé le développement de <span>Quanta Cloud</span> afin de vous proposer une alternative pour le stockage de vos documents en ligne de façon sécurisée. Notre politique nous oblige à chiffrer de bout-en-bout vos fichiers vous rendant les seuls vrais propriétaires de ceux-ci.</p>
             
             <p class="title">Notre équipe</p>
             <table class="members">
@@ -60,7 +60,7 @@
                     <td class="description">
                         <p class="name">Paul Feuvraux <a href="https://fr.linkedin.com/in/paul-feuvraux-816811100"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role">Co-Fondateur &amp; Administrateur système et réseaux</p>
-                        <p class="life">Paul est un lycéen passionné par beaucoup de sciences ainsi que l'informatique. Il gère les serveurs, ainsi que, épaulé par Romain, l'équipe Quanta Cloud. La vie privée sur Internet est un sujet qui lui tient très à coeur. Sans oublier qu'il porte beaucoup d'intérêt envers les mangas, animes, dramas, le Japon, ainsi que l'open source, le Libre .</p>
+                        <p class="life">Paul est un lycéen passionné par beaucoup de sciences ainsi que l'informatique. Il gère les serveurs, ainsi que, épaulé par Romain, l'équipe Quanta Cloud. La vie privée sur Internet est un sujet qui lui tient très à coeur. Sans oublier qu'il porte beaucoup d'intérêts envers les mangas, animes, dramas, le japon, ainsi que l'open source, le Libre .</p>
                     </td>
                     <td class="photo"><img src="./public/pictures/photos/romain.jpg" alt="Photo de Romain" /></td>
                     <td class="description">
@@ -75,11 +75,11 @@
                     <td class="description">
                         <p class="name">Quentin Thomas  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role">Développeur back-end</p>
-                        <p class="life">Quentin est développeur back-end. Il est passionné par l'informatique ainsi que les jeux vidéo. Il est actuellement dans la même section de BTS que Dylan, et fera une licence professionnelle une fois son BTS obtenu dans le but de devenir développeur web.</p>
+                        <p class="life">Quentin est développeur back-end. Il est passionné par l'informatique ainsi que les jeux vidéos. Il est actuellement dans la même section de BTS que Dylan, et fera une licence professionnelle une fois son BTS obtenu dans le but de devenir développeur web.</p>
                     </td>
                     <td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
                     <td class="description">
-                        <p class="name">Dylan Clement <a href="https://www.linkedin.com/in/dylan-clement-4a5325112"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+                        <p class="name">Dylan Clement  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role">Développeur back-end</p>
                         <p class="life">Dylan développe avec Quentin le back-end, passionné par l'informatique, il étudie actuellement l'informatique et le réseau en BTS et souhaite ensuite faire une licence professionnelle dans le développement web.</p>
                     </td>
@@ -91,12 +91,6 @@
                         <p class="name">Arnaud Defay  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role">Designer</p>
                         <p class="life">Arnaud est un étudiant en physique dans la même promotion que Romain. Passionné par l'informatique et l'électronique, Arnaud a codé l'intégralité des scripts lui permettant de gérer sa maison avec sa tablette. Ses multiples compétences autour de photoshop lui permettent d'être le designer du projet. Plus tard, il projette de travailler autour de la domotique ou des énergies renouvelables.</p>
-                    </td>
-                    <td class="photo"><img src="./public/pictures/photos/matthieu.jpg"  alt="Photo de Matthieu" /></td>
-                    <td class="description">
-                        <p class="name">Matthieu Rabin <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role">Développeur Android</p>
-                        <p class="life">Matthieu est un développeur Android, c'est lui qui développe l'application Android de Quanta Cloud. Actuellement dans la même section que Quentin et Dylan, il étudie la programmation web, orientée objet, et les réseaux. Il vise actuellement l'école Nancy Telecom pour devenir architecte de logiciel. Il aime les jeux vidéo ainsi que faire des sorties entre amis.</p>
                     </td>
                 </tr>
             </table>
@@ -120,11 +114,7 @@
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/icons8.svg" /><br /><a href="https://icons8.com/"><b>Icons8</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/vsFTPD.png" /><br /><a href="https://security.appspot.com/vsftpd.html"><b>vsFTPD</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/letsencrypt.svg" /><br /><a href="https://letsencrypt.org/"><b>Let's Encrypt</b></a></td>
-                </tr>
-                <tr>
-                    <td><img src="./public/pictures/about/thanks/openpgpjs.png" /><br /><a href="http://openpgpjs.org/"><b>OpenPGP.js</b></a></td>
+                    <td><img src="./public/pictures/./public/pictures/about/thanks/proftpd.png" /><br /><a href="http://www.proftpd.org/"><b>ProFTPD</b></a></td>
                 </tr>
             </table>
         </section>

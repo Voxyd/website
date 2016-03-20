@@ -67,60 +67,6 @@ section#donate tr td img:hover
 }
 
 
-/*********/
-/* PopUp */
-/*********/
-section#popUp_why
-{
-    display: none;
-    
-    z-index: 98;
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-section#popUp_why div#content_popUp
-{
-    z-index: 99;
-    
-    display: table;
-    
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-    
-    background-color: white;
-    
-    border-radius: 5px;
-}
-
-section#popUp_why div#content_popUp p
-{
-    display: table-cell;
-    vertical-align: middle;
-    
-    padding-left: 3vw;
-    padding-right: 3vw;
-}
-
-section#popUp_why div#content_popUp a
-{
-    position: absolute;
-    top: 1%;
-    right: 1%;
-    
-    cursor: pointer;
-}
-
-
 @media only screen and (max-device-width: 720px) 
 {
     section#donate tr td img
