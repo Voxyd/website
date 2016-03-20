@@ -3,7 +3,6 @@ class Routing {
 
 	private static $instance;
 	
-
 	public static function getInstance() {
 		if (!isset(self::$instance)) {
 			$c = __CLASS__;
@@ -18,36 +17,32 @@ class Routing {
 		$appel_url = addslashes($_SERVER['REQUEST_URI']);
 
 		// On garde que les parties dont on a besoin dans l'url
-		//$appel_url = str_replace("/projects", "", $appel_url);
 		$appel_url = str_replace("/photon", "", $appel_url);
         
 		$arguments = explode('/', $appel_url);
-		//var_dump($arguments);
 		// On enleve les eventuels "/" inutiles
 		$this->clear_empty_value($arguments);
 		// Nombre d'arguments
 		$nbArgs = count($arguments);
 
-		if($nbArgs == 0) // Pas d'arguments, on affiche la page par d�faut
+		if($nbArgs == 0 || $nbArgs > 8) // Pas d'arguments ou trop, on affiche la page par d�faut
 		{
 			$_controller = DEFAULT_CONTROLLER;
 			$_function = DEFAULT_FUNCTION;
 		}
 		else
 		{
-			//var_dump($arguments);
 			$_controller = $arguments[0];
-			//echo $_controller;
 			
 			if($nbArgs > 1)
 			{
 
-				$_function = $arguments[1];
+				$_function = $arguments[1].'Action';
 				if($nbArgs > 2)
 				{
 					for($i = 2; $i < $nbArgs; $i++)
 					{
-						$_params[$i-2] = $arguments[$i];
+						$params[$i-2] = $arguments[$i];
 					}
 				}
 			}
@@ -65,37 +60,56 @@ class Routing {
 
 		if (!class_exists($_controller))
 		{
-			// par la suite redirection : header('Location: '.ROOT.'/error');
 			echo 'Erreur : La classe '.$_controller.' n\'est pas définie.';
 		}
 		else
 		{
 			$_class = new $_controller();
-			//var_dump($_class);
 			if(!empty($_function))
 			{
 				if(!method_exists($_class, $_function))
 				{
-					// par la suite redirection : header('Location: '.ROOT.'/error');
 					echo 'Erreur : La m�thode '.$_function.' n\'est pas d�finie.';
 				}
 				else
 				{
-					if(!empty($_params))
+					if(!empty($params))
 					{
-						$nbParams = count($_params);
-						$params = "'".implode($_params, "','")."'";
-						
+						$nbParams = count($params);
 						$r = new ReflectionMethod($_class, $_function);
 						
 						if($r->getNumberOfRequiredParameters() > $nbParams)
 						{
-							// par la suite redirection : header('Location: '.ROOT.'/error');
 							echo 'Erreur : Impossible d\'appeler la m�thode '.$_function.'.';
 						}
 						else
 						{
-							$_class->$_function($params);
+							switch($nbParams) {
+                                case 1:
+                                    $_class->$_function($params['0']);
+                                    break;
+                                case 2:
+                                    $_class->$_function($params['0'], $params['1']);
+                                    break;
+                                case 3:
+                                    $_class->$_function($params['0'], $params['1'], $params['2']);
+                                    break;
+                                case 4:
+                                    $_class->$_function($params['0'], $params['1'], $params['2'], $params['3']);
+                                    break;
+                                case 5:
+                                    $_class->$_function($params['0'], $params['1'], $params['2'], $params['3'], $params['4']);
+                                    break;
+                                case 6:
+                                    $_class->$_function($params['0'], $params['1'], $params['2'], $params['3'], $params['4'], $params['5']);
+                                    break;
+                                case 7:
+                                    $_class->$_function($params['0'], $params['1'], $params['2'], $params['3'], $params['4'], $params['5'], $params['6']);
+                                    break;
+                                case 8:
+                                    $_class->$_function($params['0'], $params['1'], $params['2'], $params['3'], $params['4'], $params['5'], $params['6'], $params['7']);
+                                    break;
+                            }
 						}
 					}
 					else
@@ -103,7 +117,6 @@ class Routing {
 						$r = new ReflectionMethod($_class, $_function);
 						if($r->getNumberOfRequiredParameters() > 0)
 						{
-							// par la suite redirection : header('Location: '.ROOT.'/error');
 							echo 'Erreur : Impossible d\'appeler la m�thode '.$_function.'.';
 						}
 						else
@@ -115,7 +128,7 @@ class Routing {
 			}
 			else
 			{
-				// Existence methode "Main" ? Si oui, on l'appelle
+				// Existence methode "DefaultAction" ? Si oui, on l'appelle
 				if(method_exists($_class, "DefaultAction"))
 					$_class->DefaultAction();
 			}
@@ -132,21 +145,5 @@ class Routing {
 		}
 		$array = array_values($array);
 	}
-
-	/*function block($function = "")
-	{
-		// Cette fonction permet d'ajouter une securite en bloquant l'utilisateur tentant d'acceder a une fonction non autorisee via l'url
-		if($this->_nbArgs > 1) {
-			if(!isset($function)) // Blocage automatique si plus d'un argument passe dans l'url et pas de nom de fonction definie 
-				exit;
-			else {
-				for($i=1;$i<$this->_nbArgs;$i++) {
-					if($this->_arguments[$i] == $function)
-						exit;
-				}
-			}
-		}
-	}*/
-
 }
 ?>
