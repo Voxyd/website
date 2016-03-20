@@ -52,7 +52,7 @@
         <section id="work">
             <div id="bubbles">
                 <div class="bubble"><div class="ok" onmouseover="description(1);"><p>Phase 1<br /><b>100%</b></p></div></div>
-                <div class="bubble"><div class="wait" onmouseover="description(2);"><p>Phase 2<br /><b>5%</b></p></div></div>
+                <div class="bubble"><div class="wait" onmouseover="description(2);"><p>Phase 2<br /><b>15%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(3);"><p>Phase 3<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(4);"><p>Phase 4<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(5);"><p>Phase 5<br /><b>0%</b></p></div></div>

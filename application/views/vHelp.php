@@ -62,14 +62,14 @@
             <p class="answer">Vos fichiers sont chiffrés de bout-en-bout avec l'outil <a href="http://openpgpjs.org/">OpenPGP.js</a> au niveau de votre navigateur à l'aide de votre clé personnelle, elle aussi déchiffrée au niveau de votre navigateur. Ainsi, les données qui sont envoyées sont déjà chiffrées et personne d'autre à part vous ne peut les déchiffrer.</p>
         
             <p class="question">Comment est financé Quanta Cloud, reçoit-il de l'aide de société ?</p>
-            <p class="answer">Non, Quanta Cloud a pour principe de n'appartenir à aucune société (à part la notre), de ne pas recevoir d'aide de grosses sociétés, afin de ne pas mettre en péril sa politique de confidentialité, etc... Ainsi, Quanta Cloud est seulement financé à l'aide de vos dons. Vous pouvez faire un tour dans <a href="Donate">la section "Dons"</a> si cela vous intéresse.</p>
+            <p class="answer">Non, Quanta Cloud a pour principe de n'appartenir à aucune société (à part la nôtre), de ne pas recevoir d'aide de grosses sociétés, afin de ne pas mettre en péril sa politique de confidentialité, etc... Ainsi, Quanta Cloud est seulement financé à l'aide de vos dons. Vous pouvez faire un tour dans <a href="Donate">la section "Dons"</a> si cela vous intéresse.</p>
         
             <p class="question">Tentez-vous d'aider les terroristes, ou organisations malfaisantes ?</p>
-            <p class="answer">Non, nous prônons la vie privée, certes, en aidant le monde  a obtenir une meilleure vie privée, nous aidons involontairement le terrorisme. Mais nous sommes dans le même cas que <a href="https://protonmail.com/blog/privacy-encryption-and-terrorism/">ProtonMail</a>. Dans tous les cas, même si nous ne développerions pas Quanta Cloud, les terroristes ainsi que toute autre personne ou groupe de personnes chiffreraient.</p>
+            <p class="answer">Non, nous prônons la vie privée, certes, en aidant le monde à obtenir une meilleure vie privée, nous aidons involontairement le terrorisme. Mais nous sommes dans le même cas que <a href="https://protonmail.com/blog/privacy-encryption-and-terrorism/">ProtonMail</a>. Dans tous les cas, même si nous ne développerions pas Quanta Cloud, les terroristes ainsi que toute autre personne ou groupe de personnes chiffreraient.</p>
 
             
             <p class="question">Une autre question ?</p>
-            <p class="answer">Notre FAQ sera mise à jour au fur et à mesure de vos questions. Vous pouvez nous contacter à l'adresse suivante : <b>quantacloud@protonmail.ch</b></p>
+            <p class="answer">Notre FAQ sera mise à jour au fur et à mesure de vos questions. Vous pouvez nous contacter à l'adresse suivante : <b>quantacloud [AT] protonmail [DOT] ch</b></p>
         </section>
         
         

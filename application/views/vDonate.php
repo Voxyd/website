@@ -64,7 +64,7 @@
                     </td>
                     <td>
                         <img src="./public/pictures/donate/team.svg" alt="financement équipe" /><br /><br />
-                        Participer au financement de l'équipe<br /><br />
+                        Participer au financement de l'équipe <a style="cursor:pointer;color: #00a7ff;font-weight: bold;" onclick="open_why();">(Pourquoi ?)</a><br /><br />
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="8F6EEEBVRHAWJ">
@@ -84,7 +84,7 @@
             </table>
         </section>
         
-    
+        
         <!----------------------------->
         <!-- Footer : Copyright + RS -->
         <!----------------------------->
@@ -97,6 +97,35 @@
                 <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
         </section>
+        
+        
+        <!------------------------>
+        <!-- PopUp "Pourquoi ?" -->
+        <!------------------------>
+        <section id="popUp_why">
+            <div id="content_popUp">
+                <a onclick="close_why();">Fermer</a>
+                <p>
+                    <span class="title"><b>Pourquoi faire un don ?</b><br /><br /></span>
+                    <span class="text">
+                        Notre équipe est composée d'étudiants, pas de professionnels à proprement parler. Donc, nous ne sommes pas rémunérés par un quelconque emploi. Ainsi, si nous avons besoin d'argent, nous sommes obligés de consacrer de notre temps pour travailler, ce qui est du temps en moins pour travailler sur Quanta Cloud ou sur nos études.<br />
+                        Or, si par vos dons, nous parvenons à établir un certain équilibre et nous n'avons pas forcément besoin de travailler pour subvenir à nos besoins, alors nous pourrons nous consacrer davantage au développement de Quanta Cloud.
+                    </span>
+                </p>
+            </div>
+        </section>
+        
+        <script type="text/javascript">
+            var open_why = function()
+            {
+                document.querySelector("section#popUp_why").style.display = "block";
+            }
+            
+            var close_why = function()
+            {
+                document.querySelector("section#popUp_why").style.display = "none";
+            }
+        </script>
     </body>
 <?php
     $_template->getFooter();

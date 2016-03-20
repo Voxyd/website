@@ -19,8 +19,7 @@ class Routing {
 
 		// On garde que les parties dont on a besoin dans l'url
 		//$appel_url = str_replace("/projects", "", $appel_url);
-		$appel_url = str_replace("/photon/", "", $appel_url);
-        $appel_url = str_replace("/home", "", $appel_url);
+		$appel_url = str_replace("/photon", "", $appel_url);
         
 		$arguments = explode('/', $appel_url);
 		//var_dump($arguments);

@@ -17,21 +17,7 @@
                                 'sameAs' : [ 'https://www.facebook.com/quantacloud/' ]
                             } "
                          );
-    $_template->addScript("text/javascript",
-    						"var paq = paq || [];
-        					_paq.push(['trackPageView']);
-        					_paq.push(['enableLinkTracking']);
-        					(
-    						function() 
-	        					{
-						            var u='//quantacloud.ch/majorana/piwik/';
-						            _paq.push(['setTrackerUrl', u+'piwik.php']);
-						            _paq.push(['setSiteId', 1]);
-						            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-						            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        						}
-    						)();"
-    		);
+
     $_template->addMeta("description","Quanta Cloud est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
 
     $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta, 
@@ -44,7 +30,21 @@
 
     $_template->getHeader();
 ?>
-
+<head><!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//quantacloud.ch/majorana/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//quantacloud.ch/majorana/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code --></head>
     <body>
         <!------------------------------------>
         <!-- Zone de selection de la langue -->
@@ -64,7 +64,7 @@
         <!----------------->
         <section id="header">
             <div id="logo">
-                <a href="../Home/">
+                <a href="Accueil">
                     <div><img src="./public/pictures/logo_anime.svg" alt="logo animé" /></div>
                     <div>Quanta Cloud</div>
                 </a>
@@ -115,7 +115,7 @@
                     <td>
                         <img src="./public/pictures/features/encryption.svg" alt="Chiffrement bout-en-bout" /><br />
                         <b>Chiffrement de bout-en-bout</b><br /><br />
-                        <p>Tous vos fichiers sont chiffrés sur nos serveurs afin que vous puissez être les seuls à pouvoir les consulter</p>
+                        <p>Tous vos fichiers sont chiffrés au niveau de votre navigateur afin que vous puissiez être les seuls à pouvoir les consulter</p>
                     </td>
                     <td>
                         <img src="./public/pictures/features/protection.svg" alt="Protection" /><br />
@@ -170,3 +170,4 @@
 <?php
     $_template->getFooter();
 ?>
+
