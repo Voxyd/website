@@ -106,7 +106,7 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/apache.png" /><br /><a href="http://www.apache.org/"><b>Apache</b></a></td>
                     <td><img src="./public/pictures/about/thanks/automattic.png" /><br /><a href="https://wordpress.com/"><b>Wordpress</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/bitbucket.png" /><br /><a href="https://bitbucket.org/"><b>Bitbucket</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/git.png" /><br /><a href="https://git-scm.com/"><b>Git</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/debian.svg" /><br /><a href="https://www.debian.org/"><b>Debian</b></a></td>
@@ -115,8 +115,8 @@
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/php.png" /><br /><a href="https://www.php.net/"><b>PHP</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/propulse.png" /><br /><a href="http://www.ppulse.fr/"><b>Propulse</b></a></td>
                     <td><img src="./public/pictures/about/thanks/protonmail.png" /><br /><a href="https://protonmail.ch/"><b>ProtonMail</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/openpgpjs.png" /><br /><a href="http://openpgpjs.org/"><b>OpenPGP.js</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/icons8.svg" /><br /><a href="https://icons8.com/"><b>Icons8</b></a></td>
@@ -124,7 +124,8 @@
                     <td><img src="./public/pictures/about/thanks/letsencrypt.svg" /><br /><a href="https://letsencrypt.org/"><b>Let's Encrypt</b></a></td>
                 </tr>
                 <tr>
-                    <td><img src="./public/pictures/about/thanks/openpgpjs.png" /><br /><a href="http://openpgpjs.org/"><b>OpenPGP.js</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/brackets.jpeg" /><br /><a href="http://brackets.io/"><b>Brackets</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/phpmyadmin.png" /><br /><a href="http://www.phpmyadmin.net/"><b>Brackets</b></a></td>
                 </tr>
             </table>
         </section>
