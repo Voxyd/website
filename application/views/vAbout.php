@@ -120,11 +120,11 @@
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/icons8.svg" /><br /><a href="https://icons8.com/"><b>Icons8</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/vsFTPD.png" /><br /><a href="https://security.appspot.com/vsftpd.html"><b>vsFTPD</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/gnu.png" /><br /><a href="https://security.appspot.com/vsftpd.html"><b>vsFTPD</b></a></td>
                     <td><img src="./public/pictures/about/thanks/letsencrypt.svg" /><br /><a href="https://letsencrypt.org/"><b>Let's Encrypt</b></a></td>
                 </tr>
                 <tr>
-                    <td><img src="./public/pictures/about/thanks/brackets.jpeg" /><br /><a href="http://brackets.io/"><b>Brackets</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/brackets.jpg" /><br /><a href="http://brackets.io/"><b>Brackets</b></a></td>
                     <td><img src="./public/pictures/about/thanks/phpmyadmin.png" /><br /><a href="http://www.phpmyadmin.net/"><b>PHPMyAdmin</b></a></td>
                 </tr>
             </table>
