@@ -125,7 +125,7 @@
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/brackets.jpeg" /><br /><a href="http://brackets.io/"><b>Brackets</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/phpmyadmin.png" /><br /><a href="http://www.phpmyadmin.net/"><b>Brackets</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/phpmyadmin.png" /><br /><a href="http://www.phpmyadmin.net/"><b>PHPMyAdmin</b></a></td>
                 </tr>
             </table>
         </section>
