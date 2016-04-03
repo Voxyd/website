@@ -104,7 +104,7 @@
             <p class="title" style="padding-top: 5vh;">Remerciements</p>
             <table class="thanks">
                 <tr>
-                    <td><img src="./public/pictures/about/thanks/apache.png" /><br /><a href="http://www.apache.org/"><b>Apache</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/apache.png" /><br /><a href="http://httpd.apache.org/"><b>Apache</b></a></td>
                     <td><img src="./public/pictures/about/thanks/automattic.png" /><br /><a href="https://wordpress.com/"><b>Wordpress</b></a></td>
                     <td><img src="./public/pictures/about/thanks/git.png" /><br /><a href="https://git-scm.com/"><b>Git</b></a></td>
                 </tr>
@@ -114,7 +114,7 @@
                     <td><img src="./public/pictures/about/thanks/mysql.png" /><br /><a href="https://www.mysql.com/"><b>MySQL</b></a></td>
                 </tr>
                 <tr>
-                    <td><img src="./public/pictures/about/thanks/php.png" /><br /><a href="https://www.php.net/"><b>PHP</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/php.png" /><br /><a href="http://www.php.net/"><b>PHP</b></a></td>
                     <td><img src="./public/pictures/about/thanks/protonmail.png" /><br /><a href="https://protonmail.ch/"><b>ProtonMail</b></a></td>
                     <td><img src="./public/pictures/about/thanks/openpgpjs.png" /><br /><a href="http://openpgpjs.org/"><b>OpenPGP.js</b></a></td>
                 </tr>
