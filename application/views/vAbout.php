@@ -106,7 +106,7 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/apache.png" /><br /><a href="http://httpd.apache.org/"><b>Apache</b></a></td>
                     <td><img src="./public/pictures/about/thanks/automattic.png" /><br /><a href="https://wordpress.com/"><b>Wordpress</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/git.png" /><br /><a href="https://about.gitlab.com/"><b>GitLab</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/gitlab.png" /><br /><a href="https://about.gitlab.com/"><b>GitLab</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/debian.svg" /><br /><a href="https://www.debian.org/"><b>Debian</b></a></td>
