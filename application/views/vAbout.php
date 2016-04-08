@@ -74,7 +74,7 @@
                     <td class="photo"><img src="./public/pictures/photos/quentin.jpg" alt="Photo de Quentin" /></td>
                     <td class="description">
                         <p class="name">Quentin Thomas  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role">Développeur back-end & administrateur de base de données</p>
+                        <p class="role">Développeur back-end & Administrateur de base de données</p>
                         <p class="life">Quentin est développeur back-end. Il est passionné par l'informatique ainsi que les jeux vidéo. Il est actuellement dans la même section de BTS que Dylan, et fera une licence professionnelle une fois son BTS obtenu dans le but de devenir développeur web.</p>
                     </td>
                     <td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
