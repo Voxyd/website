@@ -161,7 +161,7 @@
             <div id="copyright">&copy; 2015-2016 <b>Kantum Technologies</b></div>
             <div id="rs">
                 <a href="mailto:quantacloud@protonmail.ch"><img src="./public/pictures/features/mail.svg" alt="mail" /></a>
-                <a href="#"><img src="./public/pictures/features/gplus.svg" alt="google plus" /></a>
+                <a href="https://plus.google.com/u/0/b/113792890240805745979/113792890240805745979/posts"><img src="./public/pictures/features/gplus.svg" alt="google plus" /></a>
                 <a href="https://twitter.com/QuantaCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
                 <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
