@@ -94,8 +94,8 @@
                     <p style="color: #ffb52d;"><b>Solution de stockage sécurisé</b></p>
                 </div>
                 <div id="button">
-                    <a href="../neutron/"><input type="button" value="Se connecter" /></a>&nbsp;
-                    <a href="../neutron/Inscription"><input type="button" value="S'inscrire" /></a>
+                    <a href="https://photon.quantacloud.ch/neutron/"><input type="button" value="Se connecter" /></a>&nbsp;
+                    <a href="https://photon.quantacloud.ch/neutron/Inscription"><input type="button" value="S'inscrire" /></a>
                 </div>
             </div>
         </section>
