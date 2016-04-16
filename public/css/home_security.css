@@ -1,0 +1,117 @@
+/*
+* @nom             : home_security.css
+* @description     : Feuille de style pour la partie technique de la sécurité du site de features
+* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
+*/
+
+
+/***************************************/
+/* Zone de présentation de la sécurité */
+/***************************************/
+section#security
+{
+    position: absolute;
+    top: 18%;
+    left: 0;
+    height: 77%;
+    width: 100%;
+    
+    background-color: rgb(240, 240, 240);
+    
+    overflow: auto;
+}
+
+section#security div.paragraph
+{
+    padding: 3vh;
+}
+
+section#security div.paragraph div.title
+{
+    font-size: 48px;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    
+    text-align: left;
+}
+
+section#security div.paragraph div.content
+{
+    display: table;
+}
+
+section#security div.paragraph span.description
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
+    
+    width: 70%;
+}
+
+section#security div.paragraph span.image
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+    width: 30%;
+}
+
+section#security div.paragraph span img
+{
+    width: 15vh;
+    height: 15vh;
+}
+
+section#security div.paragraph span a
+{
+    color: #00a7ff;
+    font-weight: bold;
+}
+
+section#security div.paragraph span b
+{
+    color: orange;
+}
+
+
+/****************/
+/* PopUp schéma */
+/****************/
+section#draw
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    z-index: 99;
+    
+    display: table;
+}
+
+section#draw img.close
+{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+}
+
+section#draw p
+{
+    display: table-cell;
+    vertical-align: middle;
+    
+    text-align: center;
+}
+
+section#draw p img
+{
+    height: 90vh;
+    
+    border-radius: 5px;
+}
