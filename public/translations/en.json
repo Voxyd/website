@@ -2,7 +2,7 @@
     "global": {
 		"home": "Encrypt your files",
 		"about": "About",
-		"adventure": "Adventure",
+		"adventure": "Advancement",
 		"security": "Security",
 		"blog": "Blog",
 		"donate": "Donate",
@@ -15,17 +15,17 @@
 	"home": {
 		"secureStorageSolution": "Secure storage solution",
 		"securedConnections": "Secured connections",
-		"securedConnectionsTxt": "All your connections to Quanta Cloud are secured using TLS 1.2 technology",
+		"securedConnectionsTxt": "All your connections to Quanta Cloud are secured by TLS 1.2 technology",
 		"endToEndEncryption": "End-to-end encryption",
-		"endToEndEncryptionTxt": "All your files are encrypted at your browser, so, only you are able to consult them",
+		"endToEndEncryptionTxt": "All your files are encrypted in your browser, so, only you are able to consult them",
 		"protection": "Protection",
-		"protectionTxt": "Your files are protected against espionage and your password only allows you to view your files",
+		"protectionTxt": "Your files are protected against espionage and only your password allows you to view your files",
 		"free": "Free",
-		"freeTxt": "Internet privacy is a right. Your donations fund the servers, the team and our conferences",
+		"freeTxt": "Internet privacy is a fundamental right. Your donations fund the servers, the team and our conferences",
 		"openSource": "OpenSource",
-		"openSourceTxt": "Quanta Cloud uses open source encryption algorithms, tested by the free software community",
+		"openSourceTxt": "Quanta Cloud uses open source encryption library, tested by the free software community",
 		"anonymity": "Anonymity",
-		"anonymityTxt": "Quanta Cloud doesn't requires and doesn't collect any personal information, you remain anonymous",
+		"anonymityTxt": "Quanta Cloud doesn't require and doesn't collect any personal information, you remain anonymous",
 		"modernity": "Modernity",
 		"modernityTxt": "The interface is intuitive and modern, allowing you to access your files quickly and easily",
 		"accessibility": "Accessibility",
@@ -34,14 +34,14 @@
 
 	"about": {
 		"ourPolicy": "Our policy",
-		"policy": "<b>I</b>nternet privacy is a right. Why should we accept that we wouldn't accept in our daily life (offline) ? For years, private companies such as Google, Facebook, etc... as well as government agencies spy on us and gather information about us everyday on the web. However, we are able to counter this mass spying using cryptography but too few projects allow us to protect us properly. But today, we are fortunate to have a safe alternative for our mails: <span>ProtonMail</span>, which allows encryption end-to-end thereof.<br /><b>I</b>t's in that perspective that we launched the development of Quanta Cloud, to offer an alternative for storing securely your documents online. Our policy requires us to encrypt end-to-end files making you the only true owner thereof.",
+		"policy": "<b>I</b>nternet privacy is a right. Why should we accept that we wouldn't accept in our daily life (offline) ? For many years, private companies such as Google, Facebook, etc... as well as government agencies spy on us to gather informations about us everyday on the web. However, we are able to counter this mass spying using cryptography but too few projects allow us to protect us properly. But today, we are fortunate to have a safe alternative for our mails: <span>ProtonMail</span>, which allows encryption end-to-end thereof.<br /><b>I</b>t's in that perspective that we launched the development of Quanta Cloud, to offer an alternative for storing securely your documents online. Our policy requires us to encrypt end-to-end files making you the only true owner thereof.",
 		"ourTeam": "Our team",
 		"PaulRole": "Co-founder &amp; System and network admin",
-		"PaulLife": "Paul is a high school student who likes many sciences and IT. He manages the servers and, assisted by Romain, Quanta Cloud team. Privacy on Internet is a subject close to his heart. Not forgetting that he takes a lot of interest in manga, anime, dramas, Japan, and the open source community.",
+		"PaulLife": "Paul is a high school student who likes many sciences and IT. He manages the servers and, assisted by Romain, Quanta Cloud's team. Privacy on Internet is a subject very important to him. Not forgetting that he takes a lot of interest in manga, anime, dramas, Japan, and the open source community.",
 		"RomainRole": "Co-founder &amp; front-end developer",
-		"RomainLife": "Romain is a physics student fascinated by astrophysics, quantum physics, everything which relates to physics and IT. He's a founder of Quanta Cloud and he manages the team and the front-end portion of the project. In addition to this, he's a big fan of badminton, he practices it in competition.",
+		"RomainLife": "Romain is a physics student fascinated by astrophysics, quantum physics, everything which's related to physics and IT. He's a founder of Quanta Cloud and he manages the team and the front-end portion of the project. In addition to this, he's a big fan of badminton, he practices it in competition.",
 		"QuentinRole": "Back-end developer & database administrator",
-		"QuentinLife": "Quentin is a back-end developer. He's passionate about IT and video games. He's currently in the same BTS section (Advanced Technician Certificate) that Dylan, and will do a professional bachelor degree once its BTS obtained in order to become a web developer.",
+		"QuentinLife": "Quentin is a back-end developer. He's passionate about IT and video games. He's currently in the same BTS section (Advanced Technician Certificate) than Dylan, and will do a professional bachelor degree once its BTS obtained in order to become a web developer.",
 		"DylanRole": "Back-end developer",
 		"DylanLife": "Dylan develops with Quentin the back-end, passionate about IT, he's currently studying IT and networking and then, wishes to do a professional bachelor degree in web development.",
 		"ArnaudRole": "Designer",
@@ -67,7 +67,7 @@
 		"conferenceFinancing": "Participate in conferences financing",
 		"why": "Why ?",
 		"whyDonate": "Why donate ?",
-		"whyDonateTxt": "Our team consists of students, not professionals strictly speaking. So, we are not paid by any job. If we need money, we must devote our time to work, which is less time to work on Quanta Cloud or on our studies. <br /> If by your donations, we manage to strike a balance and we don't necessarily need to work to support us, then we can devote ourselves more to the development of Quanta Cloud."
+		"whyDonateTxt": "Our team consists of students, not professionals strictly speaking. So, we are not paid by any job. If we need money, we must devote our time to work, which's less time to work on Quanta Cloud or on our studies. <br /> If by your donations, we manage to strike a balance and we don't necessarily need to work to support us, then we can devote ourselves even more to the development of Quanta Cloud."
 	},
 
 	"help": {

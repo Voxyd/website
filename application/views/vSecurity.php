@@ -66,7 +66,7 @@
             <div class="paragraph">
                 <div class="title"><?php echo $this->txt->security->filesEncryption; ?></div>
                 <div class="content">
-                    <span class="image"><img src="./public/pictures/security/openpgpjs.png" alt="OpenPGP.js" /></span>
+                    <span class="image"><img src="./public/pictures/security/opensource.png" alt="OpenPGP.js" /></span>
                     <span class="description"><?php echo $this->txt->security->filesEncryptionTxt; ?></span>
                 </div>
             </div>
