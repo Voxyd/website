@@ -81,12 +81,6 @@
                         <p class="role"><?php echo $this->txt->about->ArnaudRole; ?></p>
                         <p class="life"><?php echo $this->txt->about->ArnaudLife; ?></p>
                     </td>
-                    <td class="photo"><img src="./public/pictures/photos/matthieu.jpg"  alt="Photo de Matthieu" /></td>
-                    <td class="description">
-                        <p class="name">Matthieu Rabin <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role"><?php echo $this->txt->about->MatthieuRole; ?></p>
-                        <p class="life"><?php echo $this->txt->about->MatthieuLife; ?></p>
-                    </td>
                 </tr>
             </table>
             
