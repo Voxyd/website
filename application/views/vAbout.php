@@ -58,30 +58,20 @@
                         <p class="life"><?php echo $this->txt->about->RomainLife; ?></p>
                     </td>
                 </tr>
-                
-                <tr>
-                    <td class="photo"><img src="./public/pictures/photos/quentin.jpg" alt="Photo de Quentin" /></td>
-                    <td class="description">
-                        <p class="name">Quentin Thomas  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role"><?php echo $this->txt->about->QuentinRole; ?></p>
-                        <p class="life"><?php echo $this->txt->about->QuentinLife; ?></p>
-                    </td>
-                    <td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
+                <td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
                     <td class="description">
                         <p class="name">Dylan Clement <a href="https://www.linkedin.com/in/dylan-clement-4a5325112"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role"><?php echo $this->txt->about->DylanRole; ?></p>
                         <p class="life"><?php echo $this->txt->about->DylanLife; ?></p>
                     </td>
-                </tr>
-                
-                <tr>
-                    <td class="photo"><img src="./public/pictures/photos/arnaud.jpg"  alt="Photo d'Arnaud" /></td>
+			<td class="photo"><img src="./public/pictures/photos/arnaud.jpg"  alt="Photo d'Arnaud" /></td>
                     <td class="description">
                         <p class="name">Arnaud Defay  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
                         <p class="role"><?php echo $this->txt->about->ArnaudRole; ?></p>
                         <p class="life"><?php echo $this->txt->about->ArnaudLife; ?></p>
                     </td>
                 </tr>
+                    
             </table>
             
             <p class="title" style="padding-top: 5vh;"><?php echo $this->txt->about->thanksTo; ?></p>
