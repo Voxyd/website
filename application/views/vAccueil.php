@@ -7,7 +7,7 @@
 
     $_template =  new Template("Quanta Cloud : ".$this->txt->global->home);
     $_template->addCss("home_global");
-    $_template->addCss("home_features");  
+    $_template->addCss("home_features");
     $_template->addScript("application/ld+json",
                             " {
                                 '@context' : 'http://schema.org',
@@ -20,9 +20,9 @@
 
     $_template->addMeta("description","Quanta Cloud est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
 
-    $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta, 
-                        quantacloud, quanta cloud, encrypt, decrypt, kantum, technologies, kantum technologies, 
-                        stockage cloud, cloud chiffré, secure cloud, encrypted cloud, stockage en ligne, stockage sécurisé, 
+    $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta,
+                        quantacloud, quanta cloud, encrypt, decrypt, kantum, technologies, kantum technologies,
+                        stockage cloud, cloud chiffré, secure cloud, encrypted cloud, stockage en ligne, stockage sécurisé,
                         chiffré, private drive, private cloud, files, storage, files storage");
     $_template->addMeta("robots","index, follow");
 
@@ -37,7 +37,7 @@
                 <?php $this->getLanguageSelector(); ?>
             </div>
         </section>
-        
+
         <!-- Logo + Menu -->
         <section id="header">
             <div id="logo">
@@ -57,7 +57,7 @@
                 </ul>
             </div>
         </section>
-        
+
         <!-- Zone d'accroche + fond -->
         <section id="background">
             <div id="box">
@@ -68,12 +68,12 @@
                     <p style="color: #ffb52d;"><b><?php echo $this->txt->home->secureStorageSolution; ?></b></p>
                 </div>
                 <div id="button">
-                    <a href="https://photon.quantacloud.ch/neutron/"><input type="button" value="<?php echo $this->txt->global->login; ?>" /></a>&nbsp;
-                    <a href="https://photon.quantacloud.ch/neutron/Inscription"><input type="button" value="<?php echo $this->txt->global->register; ?>" /></a>
+                    <a href="#"><input type="button" value="<?php echo $this->txt->global->login; ?>" /></a>&nbsp;
+                    <a href="#"><input type="button" value="<?php echo $this->txt->global->register; ?>" /></a>
                 </div>
             </div>
         </section>
-        
+
         <!-- Fonctionnalités -->
         <section id="features">
             <table>
@@ -123,7 +123,7 @@
                 </tr>
             </table>
         </section>
-        
+
         <!-- Footer : Copyright + RS -->
         <section id="footer">
             <div id="copyright">&copy; 2015-2016 <b>Kantum Technologies</b></div>
@@ -138,4 +138,3 @@
 <?php
     $_template->getFooter();
 ?>
-
