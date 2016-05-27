@@ -6,7 +6,7 @@
 	*/
     $_template =  new Template("Quanta Cloud : ".$this->txt->global->about);
     $_template->addCss("home_global");
-    $_template->addCss("home_about");  
+    $_template->addCss("home_about");
     $_template->getHeader();
 ?>
     <body>
@@ -16,7 +16,7 @@
                 <?php $this->getLanguageSelector(); ?>
             </div>
         </section>
-        
+
         <!-- Logo + Menu -->
         <section id="header">
             <div id="logo">
@@ -36,12 +36,12 @@
                 </ul>
             </div>
         </section>
-        
+
         <!-- Présentation des membres de l'équipe -->
         <section id="about">
             <p class="title"><?php echo $this->txt->about->ourPolicy; ?></p>
             <p class="description"><?php echo $this->txt->about->policy; ?></p>
-            
+
             <p class="title"><?php echo $this->txt->about->ourTeam; ?></p>
             <table class="members">
                 <tr>
@@ -51,29 +51,15 @@
                         <p class="role"><?php echo $this->txt->about->PaulRole; ?></p>
                         <p class="life"><?php echo $this->txt->about->PaulLife; ?></p>
                     </td>
-                    <td class="photo"><img src="./public/pictures/photos/romain.jpg" alt="Photo de Romain" /></td>
-                    <td class="description">
-                        <p class="name">Romain Claveau <a href="https://fr.linkedin.com/in/romainclaveau"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role"><?php echo $this->txt->about->RomainRole; ?></p>
-                        <p class="life"><?php echo $this->txt->about->RomainLife; ?></p>
-                    </td>
+										<td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
+		                    <td class="description">
+		                        <p class="name">Dylan Clement <a href="https://www.linkedin.com/in/dylan-clement-4a5325112"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+		                        <p class="role"><?php echo $this->txt->about->DylanRole; ?></p>
+		                        <p class="life"><?php echo $this->txt->about->DylanLife; ?></p>
+		                    </td>
                 </tr>
-                <td class="photo"><img src="./public/pictures/photos/dylan.jpg" alt="Photo de Dylan" /></td>
-                    <td class="description">
-                        <p class="name">Dylan Clement <a href="https://www.linkedin.com/in/dylan-clement-4a5325112"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role"><?php echo $this->txt->about->DylanRole; ?></p>
-                        <p class="life"><?php echo $this->txt->about->DylanLife; ?></p>
-                    </td>
-			<td class="photo"><img src="./public/pictures/photos/arnaud.jpg"  alt="Photo d'Arnaud" /></td>
-                    <td class="description">
-                        <p class="name">Arnaud Defay  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
-                        <p class="role"><?php echo $this->txt->about->ArnaudRole; ?></p>
-                        <p class="life"><?php echo $this->txt->about->ArnaudLife; ?></p>
-                    </td>
-                </tr>
-                    
             </table>
-            
+
             <p class="title" style="padding-top: 5vh;"><?php echo $this->txt->about->thanksTo; ?></p>
             <table class="thanks">
                 <tr>
@@ -102,7 +88,7 @@
                 </tr>
             </table>
         </section>
-        
+
         <!-- Footer : Copyright + RS -->
         <section id="footer">
             <div id="copyright">&copy; 2015-2016 <b>Kantum Technologies</b></div>

@@ -6,7 +6,7 @@
 	*/
     $_template =  new Template("Quanta Cloud : Avancement");
     $_template->addCss("home_global");
-    $_template->addCss("home_adventure");  
+    $_template->addCss("home_adventure");
     $_template->getHeader();
 ?>
     <body>
@@ -16,7 +16,7 @@
                 <?php $this->getLanguageSelector(); ?>
             </div>
         </section>
-        
+
         <!-- Logo + Menu -->
         <section id="header">
             <div id="logo">
@@ -36,24 +36,24 @@
                 </ul>
             </div>
         </section>
-        
+
         <!-- Avancement -->
         <section id="work">
             <div id="bubbles">
                 <div class="bubble"><div class="ok" onmouseover="description(1);"><p><?php echo $this->txt->adventure->phase; ?> 1<br /><b>100%</b></p></div></div>
-                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>25%</b></p></div></div>
+                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>5%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(3);"><p><?php echo $this->txt->adventure->phase; ?> 3<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(4);"><p><?php echo $this->txt->adventure->phase; ?> 4<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(5);"><p><?php echo $this->txt->adventure->phase; ?> 5<br /><b>0%</b></p></div></div>
             </div>
-            
+
             <div id="description">
                 <div>
                     <p><?php echo $this->txt->adventure->mouseDescription; ?></p>
                 </div>
             </div>
         </section>
-        
+
         <!-- Footer : Copyright + RS -->
         <section id="footer">
             <div id="copyright">&copy; 2015-2016 <b>Kantum Technologies</b></div>
@@ -64,12 +64,12 @@
                 <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
         </section>
-        
+
         <script type="text/javascript">
             function description(phase)
             {
                 var text;
-                
+
                 switch(phase)
                 {
                     case 1:
@@ -90,7 +90,7 @@
                     default:
                         break;
                 }
-                
+
                 document.querySelector("section#work div#description div p").innerHTML = text;
             }
         </script>
