@@ -58,6 +58,14 @@
 		                        <p class="life"><?php echo $this->txt->about->DylanLife; ?></p>
 		                    </td>
                 </tr>
+								<tr>
+									 <td class="photo"><img src="./public/pictures/photos/anschaire.jpg" alt="Photo of Anschaire" /></td>
+									 <td class="description">
+											 <p class="name">Anschaire Pérard  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+											 <p class="role"><?php echo $this->txt->about->AnschaireRole; ?></p>
+											 <p class="life"><?php echo $this->txt->about->AnschaireLife; ?></p>
+									 </td>
+							 </tr>
             </table>
 
             <p class="title" style="padding-top: 5vh;"><?php echo $this->txt->about->thanksTo; ?></p>
@@ -85,8 +93,8 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/brackets.jpg" /><br /><a href="http://brackets.io/"><b>Brackets</b></a></td>
                     <td><img src="./public/pictures/about/thanks/phpmyadmin.png" /><br /><a href="http://www.phpmyadmin.net/"><b>PHPMyAdmin</b></a></td>
-			<td><img src="./public/pictures/about/thanks/atom.png" /><br /><a href="http://atom.io"><b>Atom</b></a></td>
-		</tr>
+										<td><img src="./public/pictures/about/thanks/atom.png" /><br /><a href="http://atom.io"><b>Atom</b></a></td>
+								</tr>
             </table>
         </section>
 
