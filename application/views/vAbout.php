@@ -61,7 +61,7 @@
 								<tr>
 									 <td class="photo"><img src="./public/pictures/photos/anschaire.jpg" alt="Photo of Anschaire" /></td>
 									 <td class="description">
-											 <p class="name">Anschaire Pérard  <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+											 <p class="name">Anschaire Pérard  <a href="https://www.linkedin.com/in/basilicapps"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
 											 <p class="role"><?php echo $this->txt->about->AnschaireRole; ?></p>
 											 <p class="life"><?php echo $this->txt->about->AnschaireLife; ?></p>
 									 </td>
