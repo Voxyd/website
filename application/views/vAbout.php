@@ -78,7 +78,7 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/debian.svg" /><br /><a href="https://www.debian.org/"><b>Debian</b></a></td>
                     <td><img src="./public/pictures/about/thanks/linux.png" /><br /><a href="http://kernel.org/"><b>Linux</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/mysql.png" /><br /><a href="https://www.mysql.com/"><b>MySQL</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/maria.png" /><br /><a href="https://mariadb.org/"><b>MariaDB</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/php.png" /><br /><a href="http://www.php.net/"><b>PHP</b></a></td>
