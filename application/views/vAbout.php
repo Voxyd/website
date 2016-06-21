@@ -96,7 +96,7 @@
 										<td><img src="./public/pictures/about/thanks/atom.png" /><br /><a href="http://atom.io"><b>Atom</b></a></td>
 								</tr>
                 <tr>
-                    <td><img src="./public/pictures/about/thanks/opensource.png" /><br /><a href="https://openssl.org/"><b>OpenSSL</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/gnu.png" /><br /><a href="https://openssl.org/"><b>OpenSSL</b></a></td>
                 </tr>
             </table>
         </section>
