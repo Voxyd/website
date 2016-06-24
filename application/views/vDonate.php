@@ -46,28 +46,28 @@
                         <img src="./public/pictures/donate/server.svg" alt="financement serveurs" /><br /><br />
                         <?php echo $this->txt->donate->serverFinancing; ?><br /><br />
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="L4CKE3QX56FJ4">
-                            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                        </form>
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="FFEGL5WHW4YWQ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+</form>
                     </td>
                     <td>
                         <img src="./public/pictures/donate/team.svg" alt="financement équipe" /><br /><br />
                         <?php echo $this->txt->donate->teamFinancing; ?> <a style="cursor:pointer;color: #00a7ff;font-weight: bold;" onclick="open_why();">(<?php echo $this->txt->donate->why; ?>)</a><br /><br />
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="8F6EEEBVRHAWJ">
-                            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                        </form>
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="UULPTNF33P3EC">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+</form>
                     </td>
                     <td>
                         <img src="./public/pictures/donate/conference.svg" alt="financement conférences" /><br /><br />
                         <?php echo $this->txt->donate->conferenceFinancing; ?><br /><br />
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="NP2H7H7KXJB5Q">
-                            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                        </form>
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="93P5MY2H7RESL">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+</form>
                     </td>
                 </tr>
             </table>
