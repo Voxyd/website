@@ -41,7 +41,7 @@
         <section id="work">
             <div id="bubbles">
                 <div class="bubble"><div class="ok" onmouseover="description(1);"><p><?php echo $this->txt->adventure->phase; ?> 1<br /><b>100%</b></p></div></div>
-                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>10%</b></p></div></div>
+                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>20%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(3);"><p><?php echo $this->txt->adventure->phase; ?> 3<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(4);"><p><?php echo $this->txt->adventure->phase; ?> 4<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(5);"><p><?php echo $this->txt->adventure->phase; ?> 5<br /><b>0%</b></p></div></div>
