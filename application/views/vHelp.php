@@ -56,6 +56,8 @@
             <p class="question"><?php echo $this->txt->help->helpTerrorism; ?></p>
             <p class="answer"><?php echo $this->txt->help->helpTerrorismAns; ?></p>
 
+            <p class="question"><?php echo $this->txt->help->helpMoney; ?></p>
+            <p class="answer"><?php echo $this->txt->help->helpMoneyAns; ?></p>
             
             <p class="question"><?php echo $this->txt->help->anotherQuestion; ?></p>
             <p class="answer"><?php echo $this->txt->help->anotherQuestionAns; ?></b></p>
