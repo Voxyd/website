@@ -83,7 +83,7 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/php.png" /><br /><a href="http://www.php.net/"><b>PHP</b></a></td>
                     <td><img src="./public/pictures/about/thanks/protonmail.png" /><br /><a href="https://protonmail.ch/"><b>ProtonMail</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/opensource.png" /><br /><a href="https://github.com/Ne0blast/AEjS"><b>AEJS</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/opensource.png" /><br /><a href="https://bitwiseshiftleft.github.io/sjcl/"><b>SJCL</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/icons8.svg" /><br /><a href="https://icons8.com/"><b>Icons8</b></a></td>
