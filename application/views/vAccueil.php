@@ -43,7 +43,7 @@
             <div id="logo">
                 <a href="Accueil">
                     <div><img src="./public/pictures/logo_anime.svg" alt="logo animé" /></div>
-                    <div>Quanta Cloud</div>
+                    <div>Muonium Cloud</div>
                 </a>
             </div>
             <div id="list">
