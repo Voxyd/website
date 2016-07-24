@@ -31,7 +31,7 @@
                 <?php $this->getLanguageSelector(); ?>
             </div>
         </section>
-        
+
         <!-- Logo + Menu -->
         <section id="header">
             <div id="logo">
@@ -51,8 +51,8 @@
                 </ul>
             </div>
         </section>
-        
-        
+
+
         <!-- Sécurité -->
         <section id="security">
             <div class="paragraph">
@@ -62,7 +62,7 @@
                     <span class="image"><img src="./public/pictures/security/letsencrypt.svg" alt="Let's Encrypt" /></span>
                 </div>
             </div>
-            
+
             <div class="paragraph">
                 <div class="title"><?php echo $this->txt->security->filesEncryption; ?></div>
                 <div class="content">
@@ -70,7 +70,7 @@
                     <span class="description"><?php echo $this->txt->security->filesEncryptionTxt; ?></span>
                 </div>
             </div>
-            
+
             <div class="paragraph">
                 <div class="title">
                     <?php echo $this->txt->security->SwissLaws; ?>
@@ -80,7 +80,7 @@
                     <span class="image"><img src="./public/pictures/features/encryption.svg" alt="Lois suisses" /></span>
                 </div>
             </div>
-        
+
             <div class="paragraph" id="triple_auth">
                 <div class="title"><?php echo $this->txt->security->tripleAuth; ?></div>
                 <div class="content">
@@ -91,22 +91,22 @@
                 </div>
             </div>
         </section>
-        
-        
+
+
         <!-- Schéma -->
         <section id="draw" style="display: none;" onclick="draw();">
             <img src="./public/pictures/security/close.png" class="close" />
             <p><img src="./public/pictures/security/draw.png" alt="Schéma chiffrement" /></p>
         </section>
-    
+
         <!-- Footer : Copyright + RS -->
         <section id="footer">
             <div id="copyright">&copy; 2015-2016 <b>Kantum Technologies</b></div>
             <div id="rs">
                 <a href="mailto:quantacloud@protonmail.ch"><img src="./public/pictures/features/mail.svg" alt="mail" /></a>
                 <a href="https://plus.google.com/u/0/b/113792890240805745979/113792890240805745979/posts"><img src="./public/pictures/features/gplus.svg" alt="google plus" /></a>
-                <a href="https://twitter.com/QuantaCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
-                <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
+                <a href="https://twitter.com/MuoniumCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
+                <a href="https://www.facebook.com/MuoniumCloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
         </section>
     </body>

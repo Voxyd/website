@@ -12,13 +12,13 @@
                             " {
                                 '@context' : 'http://schema.org',
                                 '@type' : 'Organization',
-                                'name' : 'Quanta Cloud',
+                                'name' : 'Muonium Cloud',
                                 'url' : 'https://www.quantacloud.ch',
                                 'sameAs' : [ 'https://www.facebook.com/quantacloud/' ]
                             } "
                          );
 
-    $_template->addMeta("description","Quanta Cloud est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
+    $_template->addMeta("description","Muonium Cloud est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
 
     $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta,
                         quantacloud, quanta cloud, encrypt, decrypt, kantum, technologies, kantum technologies,
@@ -130,8 +130,8 @@
             <div id="rs">
                 <a href="mailto:quantacloud@protonmail.ch"><img src="./public/pictures/features/mail.svg" alt="mail" /></a>
                 <a href="https://plus.google.com/u/0/b/113792890240805745979/113792890240805745979/posts"><img src="./public/pictures/features/gplus.svg" alt="google plus" /></a>
-                <a href="https://twitter.com/QuantaCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
-                <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
+                <a href="https://twitter.com/MuoniumCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
+                <a href="https://www.facebook.com/MuoniumCloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
         </section>
     </body>

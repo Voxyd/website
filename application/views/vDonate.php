@@ -7,7 +7,7 @@
 
     $_template =  new Template("Muonium Cloud : ".$this->txt->global->donate);
     $_template->addCss("home_global");
-    $_template->addCss("home_donate");  
+    $_template->addCss("home_donate");
     $_template->getHeader();
 ?>
     <body>
@@ -79,8 +79,8 @@
             <div id="rs">
                 <a href="mailto:quantacloud@protonmail.ch"><img src="./public/pictures/features/mail.svg" alt="mail" /></a>
                 <a href="https://plus.google.com/u/0/b/113792890240805745979/113792890240805745979/posts"><img src="./public/pictures/features/gplus.svg" alt="google plus" /></a>
-                <a href="https://twitter.com/QuantaCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
-                <a href="https://www.facebook.com/quantacloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
+                <a href="https://twitter.com/MuoniumCloud"><img src="./public/pictures/features/twitter.svg" alt="twitter" /></a>
+                <a href="https://www.facebook.com/MuoniumCloud/"><img src="./public/pictures/features/facebook.svg" alt="facebook" /></a>
             </div>
         </section>
 
@@ -96,13 +96,13 @@
                 </p>
             </div>
         </section>
-        
+
         <script type="text/javascript">
             var open_why = function()
             {
                 document.querySelector("section#popUp_why").style.display = "block";
             }
-            
+
             var close_why = function()
             {
                 document.querySelector("section#popUp_why").style.display = "none";
