@@ -5,7 +5,7 @@
 	* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
 	*/
 
-    $_template =  new Template("Muonium : ".$this->txt->global->home);
+    $_template =  new Template("Muonium Cloud : ".$this->txt->global->home);
     $_template->addCss("home_global");
     $_template->addCss("home_features");
     $_template->addScript("application/ld+json",
