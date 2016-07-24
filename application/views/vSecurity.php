@@ -4,7 +4,7 @@
 	* @description     : Structure pour la page "sécurité" du site des features
 	* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
 	*/
-    $_template =  new Template("Quanta Cloud : ".$this->txt->global->security);
+    $_template =  new Template("Muonium : ".$this->txt->global->security);
     $_template->addCss("home_global");
     $_template->addCss("home_security");
     $_template->addScript("text/javascript",
