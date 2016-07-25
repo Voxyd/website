@@ -5,20 +5,20 @@
 	* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
 	*/
 
-    $_template =  new Template("Muonium Cloud : ".$this->txt->global->home);
+    $_template =  new Template("Muonium : ".$this->txt->global->home);
     $_template->addCss("home_global");
     $_template->addCss("home_features");
     $_template->addScript("application/ld+json",
                             " {
                                 '@context' : 'http://schema.org',
                                 '@type' : 'Organization',
-                                'name' : 'Muonium Cloud',
+                                'name' : 'Muonium',
                                 'url' : 'https://www.quantacloud.ch',
-                                'sameAs' : [ 'https://www.facebook.com/quantacloud/' ]
+                                'sameAs' : [ 'https://www.facebook.com/muoniumcloud/' ]
                             } "
                          );
 
-    $_template->addMeta("description","Muonium Cloud est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
+    $_template->addMeta("description","Muonium est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
 
     $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta,
                         quantacloud, quanta cloud, encrypt, decrypt, kantum, technologies, kantum technologies,
@@ -43,7 +43,7 @@
             <div id="logo">
                 <a href="Accueil">
                     <div><img src="./public/pictures/logo_anime.svg" alt="logo animé" /></div>
-                    <div>Muonium Cloud</div>
+                    <div>Muonium</div>
                 </a>
             </div>
             <div id="list">

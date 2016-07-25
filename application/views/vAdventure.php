@@ -4,7 +4,7 @@
 	* @description     : Structure pour l'avancement du site des features
 	* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
 	*/
-    $_template =  new Template("Muonium Cloud : ".$this->txt->global->adventure);
+    $_template =  new Template("Muonium : ".$this->txt->global->adventure);
     $_template->addCss("home_global");
     $_template->addCss("home_adventure");
     $_template->getHeader();
@@ -22,7 +22,7 @@
             <div id="logo">
                 <a href="Accueil">
                     <div><img src="./public/pictures/logo_anime.svg" alt="logo animé" /></div>
-                    <div>Muonium Cloud</div>
+                    <div>Muonium</div>
                 </a>
             </div>
             <div id="list">

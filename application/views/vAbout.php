@@ -4,7 +4,7 @@
 	* @description     : Structure pour la page "à propos" du site des features
 	* @authors         : Romain Claveau <romain.claveau@protonmail.ch>
 	*/
-    $_template =  new Template("Muonium Cloud : ".$this->txt->global->about);
+    $_template =  new Template("Muonium : ".$this->txt->global->about);
     $_template->addCss("home_global");
     $_template->addCss("home_about");
     $_template->getHeader();
@@ -22,7 +22,7 @@
             <div id="logo">
                 <a href="Accueil">
                     <div><img src="./public/pictures/logo_anime.svg" alt="logo animé" /></div>
-                    <div>Muonium Cloud</div>
+                    <div>Muonium</div>
                 </a>
             </div>
             <div id="list">
