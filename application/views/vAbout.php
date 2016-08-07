@@ -90,6 +90,10 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/gnu.png" /><br /><a href="https://openssl.org/"><b>OpenSSL</b></a></td>
 		    <td><img src="./public/pictures/about/thanks/opensource.png" /><br /><a href="https://github.com/emn178/js-sha512/"><b>js-sha512</b></a></td>
+		    <td><img src="./public/pictures/about/thanks/opensource.png" /><br /><a href="http://www.proxmox.com/"><b>Proxmox</b></a></td>
+                </tr>
+  		<tr>
+                    <td><img src="./public/pictures/about/thanks/ceph.png" /><br /><a href="https://ceph.com/"><b>Ceph</b></a></td>
                 </tr>
             </table>
         </section>
