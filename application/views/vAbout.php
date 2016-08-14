@@ -94,6 +94,7 @@
                 </tr>
   		<tr>
                     <td><img src="./public/pictures/about/thanks/ceph.png" /><br /><a href="https://ceph.com/"><b>Ceph</b></a></td>
+		   <td><img src="./public/pictures/about/thanks/telegram.svg" /><br /><a href="https://telegram.org/"><b>Telegram</b></a></td>
                 </tr>
             </table>
         </section>
