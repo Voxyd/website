@@ -58,6 +58,14 @@
 		                        <p class="life"><?php echo $this->txt->about->DylanLife; ?></p>
 		                    </td>
                 </tr>
+		<tr>
+                    <td class="photo"><img src="./public/pictures/photos/gio.jpg" alt="Pic of Giovanni" /></td>
+                    <td class="description">
+                        <p class="name">Giovanni Ciliberti <a href="#"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+                        <p class="role"><?php echo $this->txt->about->GioRole; ?></p>
+                        <p class="life"><?php echo $this->txt->about->GioLife; ?></p>
+                    </td>
+                </tr>
             </table>
 
             <p class="title" style="padding-top: 5vh;"><?php echo $this->txt->about->thanksTo; ?></p>
