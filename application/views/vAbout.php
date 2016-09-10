@@ -107,6 +107,7 @@
                 </tr>
   		<tr>
                     <td><img src="./public/pictures/about/thanks/centos.png" /><br /><a href="https://centos.org/"><b>CentOS</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/nginx.png" /><br /><a href="https://nginx.org/"><b>NGINX</b></a></td>
                 </tr>
             </table>
         </section>
