@@ -13,15 +13,15 @@
                                 '@context' : 'http://schema.org',
                                 '@type' : 'Organization',
                                 'name' : 'Muonium',
-                                'url' : 'https://www.quantacloud.ch',
+                                'url' : 'https://www.muonium.ch',
                                 'sameAs' : [ 'https://www.facebook.com/muoniumcloud/' ]
                             } "
                          );
 
     $_template->addMeta("description","Muonium est un projet permettant le stockage sécurisé de vos fichiers en ligne et de permettre ensuite leur gestion");
 
-    $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, quanta, quantacloud, quanta cloud, chiffrement, stockage, fichiers, cloud, secure, quanta,
-                        quantacloud, quanta cloud, encrypt, decrypt, kantum, technologies, kantum technologies,
+    $_template->addMeta("keywords","fichiers, fichiers en ligne, facile, muonium, chiffrement, stockage, fichiers, cloud, secure, muonium,
+                     	encrypt, decrypt, kantum, technologies, kantum technologies,
                         stockage cloud, cloud chiffré, secure cloud, encrypted cloud, stockage en ligne, stockage sécurisé,
                         chiffré, private drive, private cloud, files, storage, files storage");
     $_template->addMeta("robots","index, follow");
