@@ -30,7 +30,7 @@
                     <li><a href="About"><?php echo $this->txt->global->about; ?></a></li>
                     <li class="selected"><a href="Adventure"><?php echo $this->txt->global->adventure; ?></a></li>
                     <li><a href="Security"><?php echo $this->txt->global->security; ?></a></li>
-                    <li><a href="https://quantacloud.wordpress.com/"><?php echo $this->txt->global->blog; ?></a></li>
+                    <li><a href="https://muonium.wordpress.com/"><?php echo $this->txt->global->blog; ?></a></li>
                     <li><a href="Donate"><?php echo $this->txt->global->donate; ?></a></li>
                     <li><a href="Help"><?php echo $this->txt->global->help; ?></a></li>
                 </ul>
