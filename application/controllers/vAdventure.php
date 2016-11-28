@@ -30,7 +30,7 @@
                     <li><a href="About"><?php echo $this->txt->global->about; ?></a></li>
                     <li class="selected"><a href="Adventure"><?php echo $this->txt->global->adventure; ?></a></li>
                     <li><a href="Security"><?php echo $this->txt->global->security; ?></a></li>
-                    <li><a href="https://muonium.wordpress.com/"><?php echo $this->txt->global->blog; ?></a></li>
+                    <li><a href="https://quantacloud.wordpress.com/"><?php echo $this->txt->global->blog; ?></a></li>
                     <li><a href="Donate"><?php echo $this->txt->global->donate; ?></a></li>
                     <li><a href="Help"><?php echo $this->txt->global->help; ?></a></li>
                 </ul>
@@ -41,7 +41,7 @@
         <section id="work">
             <div id="bubbles">
                 <div class="bubble"><div class="ok" onmouseover="description(1);"><p><?php echo $this->txt->adventure->phase; ?> 1<br /><b>100%</b></p></div></div>
-                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>60%</b></p></div></div>
+                <div class="bubble"><div class="wait" onmouseover="description(2);"><p><?php echo $this->txt->adventure->phase; ?> 2<br /><b>30%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(3);"><p><?php echo $this->txt->adventure->phase; ?> 3<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(4);"><p><?php echo $this->txt->adventure->phase; ?> 4<br /><b>0%</b></p></div></div>
                 <div class="bubble"><div class="no" onmouseover="description(5);"><p><?php echo $this->txt->adventure->phase; ?> 5<br /><b>0%</b></p></div></div>

@@ -65,6 +65,12 @@
                         <p class="role"><?php echo $this->txt->about->GioRole; ?></p>
                         <p class="life"><?php echo $this->txt->about->GioLife; ?></p>
                     </td>
+                    <td class="photo"><img src="./public/pictures/photos/elmer.jpg" alt="Pic of Elmer" /></td>
+                    <td class="description">
+                        <p class="name">Elmer Ibayan <a href="https://www.linkedin.com/in/elmeribayan/"><img src="./public/pictures/about/linkedin.svg" style="height: 18px;width: 18px;" /></a></p>
+                        <p class="role"><?php echo $this->txt->about->ElmerRole; ?></p>
+                        <p class="life"><?php echo $this->txt->about->ElmerLife; ?></p>
+                    </td>
                 </tr>
             </table>
 
@@ -73,7 +79,7 @@
                 <tr>
                     <td><img src="./public/pictures/about/thanks/apache.png" /><br /><a href="http://httpd.apache.org/"><b>Apache</b></a></td>
                     <td><img src="./public/pictures/about/thanks/automattic.png" /><br /><a href="https://wordpress.com/"><b>Wordpress</b></a></td>
-                    <td><img src="./public/pictures/about/thanks/github.png" /><br /><a href="https://github.com/"><b>GitHub</b></a></td>
+                    <td><img src="./public/pictures/about/thanks/github.png" /><br /><a href="https://github.com/muonium/"><b>GitHub</b></a></td>
                 </tr>
                 <tr>
                     <td><img src="./public/pictures/about/thanks/debian.svg" /><br /><a href="https://www.debian.org/"><b>Debian</b></a></td>
